@@ -1,0 +1,206 @@
+.%  *GNU Emacs*            814  Fundamental
+    *scratch*              191  Lisp Interaction
+    Scratch.org<2>       12053  Org								~/Documents/JobKit/post.LibertyConcepts/Scratch.org
+    README               86947  Fundamental				~/github/yasnippet-ChasManRors/extras/imported/rails-mode/README
+    Scratch.org         997642  Org								~/Documents/JobKit/LibertyConcepts/Scratch.org
+    index.html            5758  XHTML							~/stylemaster_projects/project1/index.html
+    core-style.css        1931  CSS								~/stylemaster_projects/project1/core-style.css
+    ORDERS                 537  Fundamental				/Applications/Emacs.app/Contents/Resources/etc/ORDERS
+    mycss.css                1  CSS								~/stylemaster_projects/project1/mycss.css
+    init.el<2>           18577  Emacs-Lisp				~/.emacs.d.most-recent/init.el
+    junk.html.erb          740  RHTML							~/junk.html.erb
+    junk.rb                149  Ruby							~/junk.rb
+    README.mdown          1937  Fundamental				~/github/yasnippet-ChasManRors/README.mdown
+    .yas-parents<2>          9  Fundamental				~/github/yasnippet-ChasManRors/my-snippets/org-mode/.yas-parents
+    tag.1l                 102  Fundamental				~/.emacs.d-very-close/yasnippet-read-only/snippets/nxml-mode/tag.1l
+    assert_redirected_to : 262  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/assert_redirected_to (path).yasnippet
+    Wrap Selection In Tag: 311  Snippet						~/github/yasnippet-ChasManRors/extras/imported/html-mode/Snippets/Wrap Selection In Tag.yasnippet
+    Smart returnindent fo: 254  Snippet						~/github/yasnippet-ChasManRors/extras/imported/html-mode/Snippets/Smart returnindent for tag pairs.yasnippet
+    .yas-make-groups         0  Fundamental				~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/.yas-make-groups
+    .yas-parents            10  Fundamental				~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/.yas-parents
+    validates_presence_of: 292  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/validates_presence_of (vp).yasnippet
+    yasnippet.el        174500  Emacs-Lisp				~/github/yasnippet-ChasManRors/yasnippet.el
+    index.html.erb         716  RHTML							~/rails_projects/railscasts-episodes/episode-051/store-after/app/views/products/index.html.erb
+    form_for checkbox.:<2> 241  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/form_for checkbox.yasnippet
+    form_for check_box:<2> 243  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/form_for check_box.yasnippet
+    form_for hidden_fi:<2> 247  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/form_for hidden_field.yasnippet
+    form_for hidden_fi:<2> 249  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/form_for hidden_field 2.yasnippet
+    form_for file_fiel:<2> 243  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/form_for file_field.yasnippet
+    form_for file_fiel:<2> 245  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/form_for file_field 2.yasnippet
+    form_for fields_fo:<2> 264  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/form_for fields_for.yasnippet
+    Table column(s) chang: 299  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/Table column(s) change.yasnippet
+    Migration Drop Cre:<2> 317  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/Migration Drop Create Table (mdct).yasnippet
+    Migration Create C:<2> 272  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/Migration Create Column Continue (mccc).yasnippet
+    Migration Create C:<2> 259  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/Migration Create Column (mcc).yasnippet
+    Migration Remove a:<2> 332  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/Migration Remove and Add Column (mrac).yasnippet
+    Migration Create Colu: 257  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/Migration Create Column (mcc).yasnippet
+    Migration Remove and : 330  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/Migration Remove and Add Column (mrac).yasnippet
+    Migration Drop Create: 315  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/Migration Drop Create Table (mdct).yasnippet
+    Migration Create Colu: 270  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/Migration Create Column Continue (mccc).yasnippet
+    t_float (tcf).yasnipp: 272  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/t_float (tcf).yasnippet
+    t_decimal (tcd).ya:<2> 332  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/t_decimal (tcd).yasnippet
+    t_datetime (tcdt).yas: 279  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/t_datetime (tcdt).yasnippet
+    t_date (tcda).yasnipp: 271  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/t_date (tcda).yasnippet
+    t_change (tch).yasnip: 292  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/t_change (tch).yasnippet
+    t_boolean (tcb).yasni: 276  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/t_boolean (tcb).yasnippet
+    t_binary (tcbi).yasni: 308  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t/t_binary (tcbi).yasnippet
+    t_decimal (tcd).yasni: 332  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/t_decimal (tcd).yasnippet
+    stylesheet_link_tag.y: 271  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/stylesheet_link_tag.yasnippet
+    Create controller :<2> 365  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/Create controller class.yasnippet
+    Create binary colu:<2> 317  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/Create binary column.yasnippet
+    Create boolean col:<2> 281  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/Create boolean column.yasnippet
+    validates_numericalit: 301  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/validates_numericality_of.yasnippet
+    textmate_import.rb   14893  Ruby							~/github/yasnippet-ChasManRors/extras/textmate_import.rb
+    Save-visited-files-a: 1822  Emacs-Lisp				~/.emacs.d/elpa/Save-visited-files-1.2/Save-visited-files-autoloads.el
+    Notes.org             1662  Org								~/Documents/JobKit/post.LibertyConcepts/Notes.org
+    has_many (through).ya: 322  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/has_many (through).yasnippet
+    if (ERB).yasnippet     220  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/if (ERB).yasnippet
+    fields_for.yasnippet   259  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/fields_for.yasnippet
+    find_in_batches.ya:<2> 364  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find_in_batches.yasnippet
+    find_each.yasnippe:<2> 327  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find_each.yasnippet
+    find(id).yasnippet<2>  196  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find(id).yasnippet
+    find(3Alast).yasni:<2> 253  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find(3Alast).yasnippet
+    find(3Afirst).yasn:<2> 255  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find(3Afirst).yasnippet
+    find(3Aall).yasnip:<2> 251  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find(3Aall).yasnippet
+    lia.yasnippet<2>       264  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/lia.yasnippet
+    liai.yasnippet<2>      286  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/liai.yasnippet
+    lic.yasnippet<2>       272  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/lic.yasnippet
+    lica.yasnippet<2>      305  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/lica.yasnippet
+    licai.yasnippet<2>     327  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/licai.yasnippet
+    link_to (nested pa:<2> 321  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link_to (nested path).yasnippet
+    link_to (path plur:<2> 272  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link_to (path plural).yasnippet
+    link_to (path).yas:<2> 283  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link_to (path).yasnippet
+    link_to_function.y:<2> 281  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link_to_function.yasnippet
+    history.log.7        10653  Nroff							~/history.log.7
+    shell.log          1125901  Fundamental				~/shell.log
+    somesql.sql            696  SQL[ANSI]					~/somesql.sql
+    .rvmrc<4>               56  Fundamental				~/rails_projects/Webiva/.rvmrc
+    .rails_aliases       17668  Fundamental				~/aliases/.rails_aliases
+    rails                  200  Shell-script[sh]	/usr/bin/rails
+    20111024204723_add_zi: 534  Ruby							~/rails_projects/Webiva/vendor/modules/pet_demo/db/20111024204723_add_zip_and_comment.rb
+    link_to (nested pa:<2> 310  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link_to (nested path plural).yasnippet
+    link_to model.yasn:<2> 266  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link_to model.yasnippet
+    validates_associated : 303  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/validates_associated if (vaif).yasnippet
+    validates_acceptance_: 325  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/validates_acceptance_of.yasnippet
+    validates_exclusion_o: 339  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/validates_exclusion_of (ve).yasnippet
+    180 rails form_tag.ya: 290  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/180 rails form_tag.yasnippet
+    3C= Fixtures_identify: 244  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/3C= Fixtures_identify(3Asymbol) 3E.yasnippet
+    do.Set_up_the_next_da: 401  Snippet						~/github/yasnippet-ChasManRors/my-snippets/org-mode/do.Set_up_the_next_dates_headers
+    my_link_edit.2         192  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/my_link_edit.2
+    my_link_edit           189  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/my_link_edit
+    link_to (path plural): 282  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/link_to (path plural).yasnippet
+    link_to (nested path): 331  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/link_to (nested path).yasnippet
+    link_to (nested path : 320  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/link_to (nested path plural).yasnippet
+    lica.yasnippet         315  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/lica.yasnippet
+    lic.yasnippet          282  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/lic.yasnippet
+    lia.yasnippet          274  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/lia.yasnippet
+    link_to_function.yasn: 291  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/link_to_function.yasnippet
+    licai.yasnippet        337  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/licai.yasnippet
+    form_for text_area 2.: 247  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for text_area 2.yasnippet
+    form_for.yasnippet     246  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for.yasnippet
+    form_for with errors.: 294  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for with errors.yasnippet
+    form_for text_field.y: 249  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for text_field.yasnippet
+    form_for text_field 2: 249  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for text_field 2.yasnippet
+    form_for text_area.ya: 247  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for text_area.yasnippet
+    form_for submit.yasni: 277  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for submit.yasnippet
+    form_for submit 2.yas: 278  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for submit 2.yasnippet
+    form_for radio_box.ya: 270  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for radio_box.yasnippet
+    form_for radio_box 2.: 270  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for radio_box 2.yasnippet
+    form_for password_fie: 257  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for password_field.yasnippet
+    form_for password_fie: 257  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for password_field 2.yasnippet
+    form_for label.yasnip: 314  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for label.yasnippet
+    form_for label 2.yasn: 315  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for label 2.yasnippet
+    form_for hidden_field: 253  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for hidden_field.yasnippet
+    form_for hidden_field: 253  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for hidden_field 2.yasnippet
+    form_for file_field.y: 249  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for file_field.yasnippet
+    form_for file_field 2: 249  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for file_field 2.yasnippet
+    form_for fields_for.y: 269  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for fields_for.yasnippet
+    form_for checkbox.yas: 247  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for checkbox.yasnippet
+    form_for check_box.ya: 247  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ff/form_for check_box.yasnippet
+    Create controller cla: 372  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create controller class.yasnippet
+    val.validates_accepta: 378  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_acceptance_of if_yasnippet
+    val.validates_numeric: 308  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_numericality_of_yasnippet
+    val.validates_yasnipp: 869  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_yasnippet
+    val.validates_accepta: 331  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_acceptance_of_yasnippet
+    val.validates_associa: 265  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_associated (va)_yasnippet
+    val.validates_uniquen: 349  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_uniqueness_of if (vuif)_yasnippet
+    val.validates_uniquen: 303  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_uniqueness_of (vu)_yasnippet
+    val.validates_presenc: 345  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_presence_of if (vpif) 2_yasnippet
+    val.validates_presenc: 299  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_presence_of (vp)_yasnippet
+    val.validates_numeric: 355  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_numericality_of if_yasnippet
+    val.validates_length_: 366  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_length_of if_yasnippet
+    val.validates_length_: 319  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_length_of (vl)_yasnippet
+    val.validates_inclusi: 359  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_inclusion_of_yasnippet
+    val.validates_inclusi: 406  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_inclusion_of if_yasnippet
+    val.validates_format_: 324  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_format_of_yasnippet
+    val.validates_format_: 371  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_format_of if_yasnippet
+    val.validates_exclusi: 393  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_exclusion_of if (veif)_yasnippet
+    val.validates_exclusi: 346  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_exclusion_of (ve)_yasnippet
+    val.validates_confirm: 364  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_confirmation_of if (vcif)_yasnippet
+    val.validates_confirm: 318  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_confirmation_of (vc)_yasnippet
+    val.validates_associa: 308  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/val/val.validates_associated if (vaif)_yasnippet
+    Create binary column.: 321  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create binary column.yasnippet
+    Create date column.ya: 281  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create date column.yasnippet
+    Create datetime colum: 289  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create datetime column.yasnippet
+    Create decimal column: 343  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create decimal column.yasnippet
+    Create float column.y: 283  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create float column.yasnippet
+    Create functional tes: 304  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create functional test class.yasnippet
+    Create lock_version c: 325  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create lock_version column.yasnippet
+    Create references col: 356  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create references column.yasnippet
+    Create resources con: 5060  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create resources controller class.yasnippet
+    Create string column.: 285  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create string column.yasnippet
+    Create sweeper class: 1200  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create sweeper class.yasnippet
+    Create text column.ya: 281  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create text column.yasnippet
+    Create time column.ya: 281  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create time column.yasnippet
+    Create timestamp colu: 291  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create timestamp column.yasnippet
+    Create timestamps col: 281  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create timestamps columns.yasnippet
+    Create boolean column: 288  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create boolean column.yasnippet
+    Create integer column: 287  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/cre/Create integer column.yasnippet
+    render (action)... (r: 226  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (action)... (ra).yasnippet
+    render (action,layout: 264  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (action,layout) (ral).yasnippet
+    render (file) (rf).ya: 224  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (file) (rf).yasnippet
+    render (file,use_full: 269  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (file,use_full_path) (rfu).yasnippet
+    render (inline) (ri).: 234  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (inline) (ri).yasnippet
+    render (inline,locals: 287  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (inline,locals) (ril).yasnippet
+    render (inline,type) : 261  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (inline,type) (rit).yasnippet
+    render (layout) (rl).: 230  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (layout) (rl).yasnippet
+    render (nothing) (rn): 224  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (nothing) (rn).yasnippet
+    render (nothing,statu: 253  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (nothing,status) (rns).yasnippet
+    render (partial) (rp): 261  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (partial) (rp).yasnippet
+    render (partial,colle: 299  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (partial,collection) (rpc).yasnippet
+    render (partial,local: 308  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (partial,locals) (rpl).yasnippet
+    render (partial,objec: 290  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (partial,object) (rpo).yasnippet
+    render (partial,statu: 290  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (partial,status) (rps).yasnippet
+    render (text) (rt).ya: 233  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (text) (rt).yasnippet
+    render (text,layout) : 271  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (text,layout) (rtl).yasnippet
+    render (text,layout=3: 271  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (text,layout=3Etrue) (rtlt).yasnippet
+    render (text,status) : 262  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (text,status) (rts).yasnippet
+    render (update).yasni: 235  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/ren/render (update).yasnippet
+    find(3Aall).yasnippet  258  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find/find(3Aall).yasnippet
+    find(3Afirst).yasnipp: 262  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find/find(3Afirst).yasnippet
+    find(3Alast).yasnippe: 260  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find/find(3Alast).yasnippet
+    find(id).yasnippet     203  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find/find(id).yasnippet
+    find_each.yasnippet    334  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find/find_each.yasnippet
+    find_in_batches.yasni: 371  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/find/find_in_batches.yasnippet
+    link_to model.yasnipp: 276  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/link_to model.yasnippet
+    liai.yasnippet         296  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/liai.yasnippet
+    link_to (path).yasnip: 293  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/link_to (path).yasnippet
+    my_link_destroy.2      245  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/my_link_destroy.2
+    my_link_destroy        245  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/my_link_destroy
+    my_link_new            179  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/my_link_new
+    my_link_new.2          181  Snippet						~/github/yasnippet-ChasManRors/extras/imported/rails-mode/Snippets/link/my_link_new.2
+    aliases.curl_aliases    64  Fundamental				~/aliases.curl_aliases
+    move_server_to_the_c: 2551  Shell-script[sh]	~/Documents/JobKit/LibertyConcepts/snippets/move_server_to_the_cloud.sh
+    .rvmrc<3>               89  Fundamental				~/rails_projects/.rvmrc
+    hosts                 1548  Conf[Space]				/etc/hosts
+    .rvmrc<2>              108  Fundamental				~/rails2/.rvmrc
+    .rvmrcx                  0  Fundamental				~/rails3/.rvmrcx
+    .rvmrcxx                 0  Fundamental				~/rails3/.rvmrcxx
+    .rvmrc                  28  Fundamental				~/rails3/.rvmrc
+    global.gems             11  Fundamental				~/.rvm/gemsets/global.gems
+    Access.txt           29113  Text							~/Documents/private/Access.txt
+    .rvm_aliases         14778  Fundamental				~/aliases/.rvm_aliases
+    posts_controller.rb   1871  Ruby							~/rails2/test/app/controllers/posts_controller.rb
+    routes.rb             1932  Ruby							~/rails2/test/config/routes.rb
+    init.el               2938  Emacs-Lisp				~/.emacs.d/init.el
+  * *Messages*            1279  Fundamental

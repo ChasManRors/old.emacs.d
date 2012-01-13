@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: destroylink
+# contributor: 
+# name: link_to ("destroy", model_path, confirm)
+## condition: (yas/rails-view-p)
+# --
+<%= link_to "${1:Destroy}", ${2:item}_path($2), :confirm => "Are you sure?",:method => :delete %>$0

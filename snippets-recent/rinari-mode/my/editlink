@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: editlink
+# contributor: 
+# name: link_to ("edit", edit_model_path)
+## condition: (yas/rails-view-p)
+# --
+<%= link_to "${1:Edit}", edit_${2:item}_path($2) %>$0

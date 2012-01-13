@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: newlink
+# contributor: 
+# name: link_to ("new", new_model_path)
+## condition: (yas/rails-view-p)
+# --
+<%= link_to "New$1", new_${2:item}_path %>$0
+
