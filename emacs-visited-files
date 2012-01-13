@@ -1,3 +1,6 @@
+/Users/cmmagid/.emacs.d/.gitignore
+/Users/cmmagid/.emacs.d/README
+/Users/cmmagid/.emacs.d/rc-site-lisp/dirtree.el
 /Users/cmmagid/.emacs.d/el-get/tree-mode/tree-mode.el
 /Users/cmmagid/tbdeleted/testing/config/database.yml
 /Users/cmmagid/tbdeleted/testing/config/application.rb
@@ -60,6 +63,5 @@
 /Users/cmmagid/.emacs.d/el-get/dirtree/dirtree.el
 /Users/cmmagid/rails3/testing/app/controllers/application_controller.rb
 /Users/cmmagid/rails3/dirtree.el
-/Users/cmmagid/.emacs.d/rc-site-lisp/dirtree.el
 /Users/cmmagid/rails-snippets/rhtml-mode/linkto.6
 /Users/cmmagid/Documents/JobKit/LibertyConcepts/snippets/overage_custom_code_paragraph.html.erb

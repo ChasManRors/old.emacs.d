@@ -1,0 +1,21 @@
+Works on: "GNU Emacs 24.0.90.1 (x86_64-apple-darwin, NS
+           apple-appkit-1038.35) of 2011-09-26 on virtualmac.porkrind.org"
+
+I used el-get and elpa to install most of the packages in this repo.
+I put it here under git so that I can quickly recover in case of a
+crash.
+
+Two exceptions:
+
+1) The yasnippet.el needs to be added. It is not under this .emacs.d.
+I add the ruby on rails snippet converted from Dr Nics tmbundle. These
+have been hand edited to work with rinari,ruby-mode and rhtml-mode.
+Tha is because I could not get the yasnippets rails-mode option to
+work.
+
+2) I hate ecb, speedbar, sr-speedbar and nav mode.  I have been trying
+to find something which works like explorer or finder and finally
+have.  It is called dirtree.el --- Directory tree views by Ye Wenbin
+<wenbinye@gmail.com>.  Unfortunately as of this writing el-get and
+elpa use different versions of dirtree.el. So be sure to get the 'Ye
+Wenbin' versions.
