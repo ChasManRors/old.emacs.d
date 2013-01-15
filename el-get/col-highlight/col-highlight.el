@@ -1,5 +1,5 @@
 ;;; col-highlight.el --- Highlight the current column.
-;; 
+;;
 ;; Filename: col-highlight.el
 ;; Description: Highlight the current column.
 ;; Author: Drew Adams
@@ -7,21 +7,22 @@
 ;; Copyright (C) 2006-2012, Drew Adams, all rights reserved.
 ;; Created: Fri Sep 08 11:06:35 2006
 ;; Version: 22.0
-;; Last-Updated: Fri Jan  6 08:06:32 2012 (-0800)
+;; Last-Updated: Thu Aug 23 09:47:21 2012 (-0700)
 ;;           By: dradams
-;;     Update #: 335
+;;     Update #: 370
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/col-highlight.el
+;; Doc URL: http://emacswiki.org/emacs/HighlightCurrentColumn
 ;; Keywords: faces, frames, emulation, highlight, cursor, accessibility
 ;; Compatibility: GNU Emacs: 22.x, 23.x
-;; 
+;;
 ;; Features that might be required by this library:
 ;;
 ;;   `vline'.
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;;; Commentary:
-;; 
+;;
 ;;  This library highlights the current column.  When you move the
 ;;  cursor, the highlighting follows (tracks the cursor), as long as
 ;;  the highlighting stays on.
@@ -41,6 +42,10 @@
 ;;  `toggle-highlight-column-when-idle' toggles this mode.  Command
 ;;  `col-highlight-set-interval' changes the number of idle seconds to
 ;;  wait before highlighting.
+;;
+;;  You can use option `col-highlight-overlay-priority' to make the
+;;  vline (i.e., column) highlighting appear on top of other overlay
+;;  highlighting that might exist.
 ;;
 ;;
 ;;  To use this file, you must also have library `vline.el'.
@@ -86,6 +91,7 @@
 ;;  User options defined here:
 ;;
 ;;    `col-highlight-period', `column-highlight-mode',
+;;    `col-highlight-overlay-priority',
 ;;    `col-highlight-vline-face-flag'.
 ;;
 ;;  Faces defined here:
@@ -107,10 +113,19 @@
 ;;    `col-highlight-face', `col-highlight-idle-interval',
 ;;    `col-highlight-idle-timer', `col-highlight-when-idle-p'.
 ;;
+;;
+;;  ***** NOTE: The following non-interactive function defined in
+;;              `vline.el' has been ADVISED HERE (to respect option
+;;              `col-highlight-overlay-priority'):
+;;
+;;    `vline-show'.
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;;; Change Log:
 ;;
+;; 2012/05/18 dadams
+;;     Added: col-highlight-overlay-priority, defadvice of vline-show.
 ;; 2011/01/03 dadams
 ;;     Added autoload cookies for defgroup, defcustom, defface, and commands.
 ;; 2008/09/03 dadams
@@ -128,26 +143,26 @@
 ;;     Removed semi-support for Emacs 20.
 ;; 2006/09/08 dadams
 ;;     Created.
-;; 
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
 ;; published by the Free Software Foundation; either version 3, or
 ;; (at your option) any later version.
-;; 
+;;
 ;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;; General Public License for more details.
-;; 
+;;
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program; see the file COPYING.  If not, write to
 ;; the Free Software Foundation, Inc., 51 Franklin Street, Fifth
 ;; Floor, Boston, MA 02110-1301, USA.
-;; 
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;;; Code:
 
 (require 'vline)
@@ -182,6 +197,16 @@ nil means that it uses `vline-face'."
   :type 'integer :group 'column-highlight)
 
 ;;;###autoload
+(defcustom col-highlight-overlay-priority 300
+  "*Priority to use for overlays in `vline-overlay-table'.
+A higher priority can make the vline highlighting appear on top of
+other overlays that might exist."
+  :type '(choice
+          (const   :tag "No priority (default priority)"  nil)
+          (integer :tag "Priority"  300))
+  :group 'column-highlight)
+
+;;;###autoload
 (defface col-highlight '((t (:background "SlateGray3")))
   "*Face for current-column highlighting by `column-highlight-mode'.
 Not used if `col-highlight-vline-face-flag' is nil."
@@ -211,6 +236,13 @@ Do NOT change this yourself; instead, use
 ;; Turn it off, by default.
 ;; You must use `toggle-highlight-column-when-idle' to turn it on.
 (cancel-timer col-highlight-idle-timer)
+
+(defadvice vline-show (after set-priority activate)
+  "Set the overlay priority to `col-highlight-overlay-priority'."
+  (when (boundp 'vline-overlay-table)
+    (mapc (lambda (ov) (when (overlayp ov)
+                    (overlay-put ov 'priority col-highlight-overlay-priority)))
+          vline-overlay-table)))
 
 ;;;###autoload
 (define-minor-mode column-highlight-mode

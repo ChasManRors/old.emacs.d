@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: td
+# contributor: Ruby Charles
+## name: Input with Label
+## condition: "text.html
+# --
+<td>$0</td>

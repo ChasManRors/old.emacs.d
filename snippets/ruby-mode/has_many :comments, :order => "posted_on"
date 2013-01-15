@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: has_many :comments, :order => "posted_on"
+# key: hm
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+has_many :${1:comments}, :order => "${2:posted_on}"

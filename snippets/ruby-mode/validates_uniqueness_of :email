@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: validates_uniqueness_of :email
+# key: val
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+validates_uniqueness_of :email

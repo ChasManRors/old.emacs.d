@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: validates_presence_of :name
+# key: valp
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+validates_presence_of :name

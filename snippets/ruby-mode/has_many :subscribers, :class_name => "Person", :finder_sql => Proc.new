@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: has_many :subscribers, :class_name => "Person", :finder_sql => Proc.new
+# key: hm.
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+has_many :${1:subscribers}, :class_name => "${2:Person}", :finder_sql => Proc.new {
+    %Q{
+      SELECT DISTINCT *
+      FROM ${3:people} p, ${4:post_subscriptions} ps
+      WHERE ps.${5:post_id} = #{id} AND ps.${6:person_id} = p.id
+      ORDER BY p.${7:first_name}
+    }
+}

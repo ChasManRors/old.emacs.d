@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: tr
+# contributor: Ruby Charles
+## name: Input with Label
+## condition: "text.html
+# --
+<tr>$0</tr>

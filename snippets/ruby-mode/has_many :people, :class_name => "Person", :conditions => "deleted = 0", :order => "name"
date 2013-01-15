@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: has_many :people, :class_name => "Person", :conditions => "deleted = 0", :order => "name"
+# key: hm.
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+has_many :${1:people}, :class_name => "${2:Person}", :conditions => "${3:deleted = 0}", :order => "${4:name}"

@@ -1,0 +1,271 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jan 10 09:08:09 2013
+;; Desktop file format version 206
+;; Emacs version 24.3.50.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("lux" "bundle exec cap deploy slot12 site=lux local=true db=charles_lux" "cap deploy slot12 local=true db" "nati" "cap" "70%" "r13" "mt" "= link_to(_(\"logoff %s\") % user.current.name, mode_logout_url(:mode => params[:mode]), :confirm => _(\"are you sure you want to log out" "= link_to(_(\"your account\"), { :controller => '/account', :action => :your_account }, { :class => link_class }" "= link_to(_(\"your account\"), { :controller => '/account', :action => :your_account " "%= link_to(_(\"help\"), :controller => '/account', :action => 'help')" "/devel" "devel" "clone" "tick"))
+(setq regexp-search-ring '("[^`]" "^comm" "patch .*patch	" "patch .*patch" "add.*index.*unless" "fix.*display_controls" "no.*floorplan" "fixture.*image"))
+(setq register-alist '((110 . "./non-specific") (35 . "# => ") (50 . "smartgit") (103 . "DeltaWalker-1.9.9.3_64.dmg") (101 . "/usr/local/bin/emacsclient") (100 . "diff_master_development_heads_of_") (102 . "app/views/locations/floorplan.html.erb") (109 . "revert gaspar development merge for single commit to single file") (114 . "git diff master:XXX development:XXX > diff_master_development_heads_of_YYY && cat  diff_master_development_heads_of_YYY") (82 . "lib/tasks/sites/att/reports.rake")))
+(setq file-name-history '("/Users/cmagid/aliases/.git_aliases" "/Users/cmagid/aliases/.irc_aliases" "~/.tmp/h.log" "/Users/cmagid/projects/newppm/.rvmrc" "/Users/cmagid/projects/local-data/config/database.yml" "~/projects/local-data/organize/non-specific/ticket-7001.org" "~/projects/local-data/organize/non-specific/" "~/projects/local-data/organize/foo" "~/projects/local-data/organize/non-specific/ticket-7001" "~/projects/newppm/app/models/ppm_content_assignment.rb" "~/projects/newppm/script/rbm/request_analysis_report.rb" "/Users/cmagid/aliases/.rails_aliases" "/Users/cmagid/aliases/.ruby_aliases" "/Users/cmagid/projects/local-data/organize/non-specific/Information_Requested_by_Neil.txt" "~/projects/local-data/organize/non-specific/" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/experiment/trogdoro-el4r/data/emacs/site-lisp/el4r.el" "~/projects/experiment/xiki/" "/Users/cmagid/.emacs.d/init.el" "/Users/cmagid/.emacs.d/init.el.GOLD" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/experiment/.rvmrc" "/Users/cmagid/.bashrc" "/Users/cmagid/.el4r/init.rb" "~/.el4r/" "~/.emacs.d/init.el" "/tmp/" "/Users/cmagid/.el4r/init.rb" "~/.el4r/" "/Users/cmagid/.CFUserTextEncoding" "/Users/cmagid/.el4r/init.rb" "/Users/cmagid/.emacs.d/init.el" "~/" "/Users/cmagid/.emacs" "/Users/cmagid/.bashrc" "/Users/cmagid/.emacs.d/init.el" "/Users/cmagid/projects/experiment/trogdoro-el4r/setup.rb" "/Users/cmagid/projects/experiment/trogdoro-el4r/bin/el4r" "/Users/cmagid/projects/experiment/xiki/Gemfile" "~/projects/experiment/xiki/etc/install/el4r_setup.sh" "/Users/cmagid/projects/experiment/.rvmrc" "~/projects/experiment/xiki/etc/install/el4r_setup.sh" "/Users/cmagid/projects/experiment/.rvmrc" "~/projects/experiment/xiki/etc/install/el4r_setup.sh" "~/projects/experiment/xiki/./etc/install/el4r_setup.sh" "/Users/cmagid/.bashrc" "~/projects/experiment/xiki/etc/command/copy_xiki_command_to.rb" "~/projects/experiment/.rvmrc" "/Users/cmagid/projects/experiment/.rvmrc" "/Users/cmagid/Downloads/SmartGit 4 rc 1/SmartGit 4.app/Contents/MacOS/SmartGit" "~/projects/local-data/organize/non-specific/" "/Users/cmagid/projects/local-data/organize/non-specific/backout.log" "~/Documents/goheadscomparisonmagnitude2" "~/.tmp/diff-before.log" "~/projects/local-data/organize/./non-specific/goheadscomparisonmagnitude2" "~/projects/local-data/organize/non-specific/" "/Users/cmagid/projects/newppm/app/controllers/security/users_controller.rb" "/Users/cmagid/projects/newppm/app/controllers/account_controller.rb" "/Users/cmagid/projects/newppm/app/helpers/application_helper.rb" "/Users/cmagid/projects/newppm/app/views/security/users/edit.rhtml" "~/projects/local-data/organize/gtd.org" "~/projects/local-data/organize/non-specific/" "~/projects/local-data/organize/non-specific/goheadscomparisonmagnitude2" "/Users/cmagid/projects/local-data/organize/gtd.org" "~/projects/newppm/" "/Users/cmagid/projects/newppm/typescript" "/Users/cmagid/projects/newppm/pg_load.log" "~/.tmp/kayshelpdeployviacap" "/Users/cmagid/projects/newppm/typescript" "/Users/cmagid/projects/newppm/config/deploy.rb" "/Users/cmagid/projects/newppm/Capfile" "~/projects/newppm/capture-deploy-slot12-err.log" "~/projects/newppm/capture-deploy-slot12-err2.log" "/Users/cmagid/projects/newppm/.rvmrc" "/Users/cmagid/projects/newppm/Gemfile" "~/projects/newppm/config/deploy.rb" "~/projects/newppm/lib/tasks/sites/att/reports.rake" "/Users/cmagid/projects/newppm/.rsync_cache/config/site" "~/projects/newppm/./config/site" "/Users/cmagid/projects/newppm/config/site_hosts.yml" "/Users/cmagid/Downloads/lux_jan_2a.sql" "/Users/cmagid/.bashrc" "/Users/cmagid/.bash_history" "/Users/cmagid/projects/newppm/config/database.yml" "~/.tmp/" "~/.tmp/kayshelpdeployviacap" "~/projects/newppm/.rsync_cache/" "/Users/cmagid/projects/newppm/config/deploy.rb" "/Users/cmagid/projects/newppm/config/database.yml" "/Users/cmagid/projects/newppm/.rsync_cache/REVISION" "/Users/cmagid/projects/newppm/config/database.yml" "/Users/cmagid/aliases/.git_aliases" "~/projects/newppm/vendor/cache/" "/Users/cmagid/projects/newppm/Gemfile" "/Users/cmagid/projects/newppm/app/models/user.rb" "~/projects/newppm/app/views/" "/Users/cmagid/.irbrc" "/Users/cmagid/projects/newppm/app/controllers/locations_controller.rb" "~/.railsrc" "~/.irbrc" "/Users/cmagid/projects/newppm/app/controllers/locations_controller.rb" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02@R13/gems/methodfinder-1.2.5/lib/methodfinder.rb" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02@R13/gems/methodfinder-1.2.5/" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02@R13/gems/methodfinder-1.2.5/README.markdown" "/Users/cmagid/.bashrc" "/Users/cmagid/.irbrc" "/Users/cmagid/projects/newppm/app/controllers/locations_controller.rb" "~/projects/newppm/./config/global_permissions.yml" "/Users/cmagid/projects/newppm/app/views/shared/_header.rhtml" "/Users/cmagid/projects/local-data/bin/emacs_ruby_helper.rb" "/Users/cmagid/projects/newppm/lib/attribute_validator.rb" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02@global/gems/bundler-1.2.1/lib/bundler/setup.rb" "/Users/cmagid/projects/newppm/lib/bundler/setup.rb" "/Users/cmagid/projects/newppm/lib/attribute_validator.rb" "/lib/attribute_validator.rb" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02@global/gems/bundler-1.2.1/lib/bundler/setup.rb" "/Users/cmagid/projects/newppm/lib/attribute_validator.rb" "~/projects/local-data/bin/emacs_ruby_helper.rb" "/Users/cmagid/projects/newppm/lib/bundler/setup.rb" "/Users/cmagid/.irbrc" "/Users/cmagid/projects/newppm/Gemfile" "~/projects/newppm/./config/global_permissions.yml" "/Users/cmagid/projects/newppm/lib/api_cros_middleware.rb" "/lib/api_cros_middleware.rb" "/Users/cmagid/projects/local-data/bin/emacs_ruby_helper.rb" "/Users/cmagid/projects/newppm/lib/api_cros_middleware.rb" "/lib/api_cros_middleware.rb" "/Users/cmagid/projects/newppm/app/controllers/account_controller.rb" "/Users/cmagid/projects/newppm/app/views/report/index.rhtml" "/Users/cmagid/.bashrc" "/Users/cmagid/aliases/.bashrc" "/Users/cmagid/projects/newppm/lib/api_cros_middleware.rb" "/lib/api_cros_middleware.rb" "/Users/cmagid/projects/newppm/app/views/layouts/main.rhtml" "/Users/cmagid/projects/local-data/bin/emacs_ruby_helper.rb" "/Users/cmagid/projects/newppm/+in" "/Users/cmagid/projects/local-data/bin/emacs_ruby_helper.rb" "/Users/cmagid/projects/newppm/app/helpers/application_helper.rb" "~/projects/local-data/bin/" "/Users/cmagid/projects/local-data/bin/emacs_ruby_helper.rb" "~/aliases/" "/Users/cmagid/aliases/.bashrc_aliases" "/Users/cmagid/.bashrc" "~/projects/local-data/bin/emacs_ruby_helper.sh" "~/projects/local-data/" "~/.rvm/bin/" "/Users/cmagid/projects/newppm/app/helpers/application_helper.rb" "~/projects/newppm/./app/models/user.rb" "~/projects/newppm/./spec/views/user.rb" "~/projects/newppm/./spec/models/user_spec.rb" "~/projects/newppm/./factories/user.rb" "~/./app/models/user.rb" "/Users/cmagid/projects/newppm/log/development.log" "/Users/cmagid/junk.rb" "/Users/cmagid/projects/local-data/config/database.yml" "/Users/cmagid/projects/vmm/config/database.yml" "~/projects/local-data/config/database.yml" "/Users/cmagid/projects/newppm/config/database.yml.cruise" "/Users/cmagid/projects/newppm/.rvmrc" "/Users/cmagid/projects/newppm/Gemfile" "/Users/cmagid/Documents/contents.sh" "~/Documents/makeMastersFiles" "~/Documents/goheadscomparisonmagnitude3" "~/Documents/goheadscomparisonmagnitude2" "~/Documents/" "/Users/cmagid/.gitconfig" "~/projects/newppm/junk" "~/projects/newppm/.git/" "/Users/cmagid/projects/newppm/.git/HEAD" "~/projects/newppm/.git/refs/heads/" "/Users/cmagid/projects/newppm/.git/refs/heads/development" "/Users/cmagid/projects/newppm/.git/config" "~/projects/newppm/app/controllers/locations_controller.rb" "~/projects/brandnewppm/./app/controllers/locations_controller.rb" "/Users/cmagid/Documents/goheadscomparisonmagnitude3" "~/Documents/goheadscomparisonmagnitude2" "/Users/cmagid/projects/brandnewppm/config/database.yml.cruise" "~/projects/git-playback/" "/Users/cmagid/projects/git-playback/LICENSE" "/Users/cmagid/projects/git-playback/README.md" "/Users/cmagid/.bashrc" "~/.gitignore" "/Users/cmagid/.gitignore_global" "/Applications/SourceTree.app/Contents/Resources/" "/Users/cmagid/.gitconfig" "~/.gitconfig.ootw" "/Users/cmagid/.gitconfig" "/Users/cmagid/projects/newppm/lib/containers.rb" "/Users/cmagid/projects/newppm/86" "/Users/cmagid/projects/newppm/lib/containers.rb" "/Users/cmagid/.bashrc" "/Applications/Emacs.app/Contents/MacOS/" "/Users/cmagid/projects/newppm/app/controllers/locations_controller.rb" "~/projects/newppm/app/controllers/locations_controller.rb" "/Users/cmagid/projects/newppm/app/controllers/locations_controller.rb" "~/projects/newppm/app/controllers/locations_controller.rb" "~/projects/newppm/app/controllers/locations_controller.master.rb" "/Users/cmagid/projects/newppm/temp" "~/Documents/" "/Users/cmagid/Documents/goheadscomparisonmagnitude3" "/Users/cmagid/Documents/goheadscomparisonmagnitude2" "/Users/cmagid/projects/newppm/bounding" "/Users/cmagid/projects/newppm/goheadscomparison" "/Users/cmagid/projects/newppm/what-to-revert-by-go.log" "~/Documents/" "~/projects/newppm/" "/Users/cmagid/.gitconfig" "~/projects/newppm/goheadscomparisonmagnitude2" "/Users/cmagid/projects/newppm/bounding" "~/projects/newppm/goheadscomparisonmagnitude" "~/projects/newppm/goheadscomparison" "/Users/cmagid/.tmp/diff-before.log" "/Users/cmagid/.tmp/ncdiff.log" "/Users/cmagid/projects/newppm/diff_master_development_heads_of_setup_lux.rb" "/Users/cmagid/projects/newppm/diff_master_development_heads_of_ppm_support.rb" "~/projects/newppm/diff_master_development_heads_of_load_alpha_lc.rb" "~/projects/newppm/diff_master_development_heads_of_a_filters_controller.rb" "/Users/cmagid/projects/newppm/diff_master_development_heads_of_schema.rb" "~/projects/newppm/diff_master_development_heads_of_20121112163308_add_lc_dr_status.rb" "/Users/cmagid/projects/newppm/diff_master_development_heads_of_20121107195204_add_more_lux_location_attributes.rb" "~/projects/newppm/diff_master_development_heads_of_site.rb" "~/projects/newppm/diff_master_development_heads_of_content.rb" "~/projects/newppm/diff_master_development_heads_of_application_helper.rb" "/Users/cmagid/projects/newppm/chma-what-to-revert.log" "/Users/cmagid/projects/newppm/what-to-revert.log" "~/.tmp/tryemail" "/Users/cmagid/projects/newppm/reports.rake.changes" "/Users/cmagid/projects/newppm/reports.rake.4920ff0f0973b20a835acd617ba3dc4edb901dfb" "/Users/cmagid/projects/newppm/reports.rake.e4e94cba80d41f090a8962e1dca23bdd083c9888" "~/projects/newppm/lib/tasks/sites/att/reports.rake" "~/projects/newppm/reports.rake.*" "/Users/cmagid/projects/newppm/runshowreports" "/Users/cmagid/projects/newppm/graph.log" "/Users/cmagid/.emacs.d/init.el" "/Users/cmagid/.emacs.d/el-get/.loaddefs.el" "/Users/cmagid/projects/newppm/smallgraph.log" "/Users/cmagid/projects/newppm/graph.log" "/Users/cmagid/projects/newppm/commitsYESmerges.log" "/Users/cmagid/projects/newppm/commitsnomerges.log" "~/projects/newppm/commitsYESmergesPlay.log" "~/projects/newppm/commitsYESmerges.log" "/Users/cmagid/projects/newppm/graph.log" "/Users/cmagid/projects/newppm/lib/tasks/sites/att/reports.rake.rej" "~/projects/newppm/lib/tasks/sites/att/reports.rake.rej" "/Users/cmagid/projects/newppm/lib/tasks/sites/att/reports.rake" "/Users/cmagid/.gitconfig" "/Users/cmagid/.gitk" "/Users/cmagid/projects/newppm/patchfile" "~/projects/newppm/experiment.rej" "/Users/cmagid/projects/newppm/patchfile" "/Users/cmagid/projects/newppm/experiment" "/Users/cmagid/projects/newppm/gasp" "~/projects/newppm/neil" "/Users/cmagid/projects/newppm/neil" "/Users/cmagid/projects/newppm/experiment" "~/projects/newppm/lib/tasks/sites/att/reports.rake.rej" "~/projects/newppm/lib/tasks/sites/att/reports.rake" "/usr/local/Cellar/emacs/HEAD/bin/applypatch" "~/projects/newppm/lib/tasks/sites/att/reports.rake.rej" "/Users/cmagid/.gitconfig" "~/projects/newppm/reports.rake.gaspar-merge" "~/projects/newppm/reports.rake.charles" "/Users/cmagid/projects/newppm/back2" "/Users/cmagid/projects/newppm/back3" "/Users/cmagid/projects/newppm/aruna.reports.rake" "~/projects/newppm/lib/tasks/sites/att/reports.rake.rej" "~/projects/newppm/reports.rake.patch" "~/projects/newppm/lib/tasks/sites/att/reports.rake" "/Users/cmagid/projects/newppm/changetoreports.log" "/usr/local/Cellar/emacs/HEAD/bin/showpatch" "~/projects/newppm/lib/tasks/sites/att/reports.rake" "/Users/cmagid/projects/newppm/neil1" "/Users/cmagid/projects/newppm/kay" "/Users/cmagid/projects/newppm/victor" "/Users/cmagid/projects/newppm/neil" "/Users/cmagid/projects/newppm/victor" "/Users/cmagid/projects/newppm/neil" "/usr/local/Cellar/emacs/HEAD/bin/git-log-changes-single-file-long" "~/projects/newppm/./app/views/ppm/campaigns/index.html.haml" "~/.tmp/" "/Applications/Evernote.app/" "/usr/local/Cellar/emacs/HEAD/bin/applypatcholdname" "/usr/local/Cellar/emacs/HEAD/bin/showpatcholdname" "/usr/local/Cellar/emacs/HEAD/bin/changeslong" "/usr/local/Cellar/emacs/HEAD/bin/changes" "/usr/local/Cellar/emacs/HEAD/bin/changeslong" "/usr/local/Cellar/emacs/HEAD/bin/applypatch" "/usr/local/Cellar/emacs/HEAD/bin/showpatch" "/usr/local/Cellar/emacs/HEAD/bin/allpatches" "/usr/local/Cellar/emacs/HEAD/bin/changes" "/usr/local/Cellar/emacs/HEAD/bin/showpatch" "~/projects/newppm/db/migrate/20120910231432_move_data_and_drop_for_content_comments_and_a_layout_comments.rb" "/Users/cmagid/aliases/.rails_aliases" "/usr/local/Cellar/emacs/HEAD/bin/git-log-changes-single-file-long" "/usr/local/Cellar/emacs/HEAD/bin/git-log-changes-single-file" "/Users/cmagid/projects/newppm/fullpatches.log" "/usr/local/Cellar/emacs/HEAD/bin/changes" "/usr/local/Cellar/emacs/HEAD/bin/showpatch" "/Users/cmagid/projects/newppm/allpatches.log" "/usr/local/Cellar/emacs/HEAD/bin/showpatcholdname" "~/projects/newppm/allpatches.lgo" "/usr/local/Cellar/emacs/HEAD/bin/showpatch" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file-show-alt" "/usr/local/Cellar/emacs/HEAD/bin/applypatch" "/usr/local/Cellar/emacs/HEAD/bin/showpatch" "/usr/local/Cellar/emacs/HEAD/bin/changes" "/usr/local/Cellar/emacs/HEAD/bin/git-log-changes-single-file" "~/projects/newppm/app/controllers/ppm_campaigns_controller.rb.rej" "~/projects/newppm/app/controllers/ppm_campaigns_controller.rb.patch" "~/projects/newppm/app/controllers/ppm_campaigns_controller.rb" "~/projects/newppm/app/controllers/ppm_campaigns_controller.rb.rej" "~/projects/newppm/app/controllers/ppm_campaigns_controller.rb.patch" "/Users/cmagid/projects/newppm/allpatches" "~/projects/newppm/app/controllers/ppm_campaigns_controller.rb" "~/projects/newppm/app/controllers/ppm_campaigns_controller.rb.patch" "~/projects/newppm/app/controllers/ppm_campaigns_controller.rb.rej" "~/projects/newppm/app/controllers/ppm/campaigns_controller.rb.rej" "~/projects/newppm/saving rejects to file app/controllers/ppm/campaigns_controller.rb.rej" "/Users/cmagid/projects/newppm/patch" "~/projects/newppm/app/controllers/ppm/campaigns_controller.rb.rej" "/Users/cmagid/projects/newppm/patch" "~/projects/newppm/app/controllers/ppm/campaigns_controller.rb.rej" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file-alt" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file-show-alt" "/usr/local/Cellar/emacs/HEAD/bin/" "/usr/local/Cellar/emacs/HEAD/bin/git-mv-single-file-show" "/usr/local/Cellar/emacs/HEAD/bin/" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file-show-alt" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file-show" "/Users/cmagid/projects/newppm/allpatches" "/usr/local/Cellar/emacs/HEAD/bin/" "/usr/local/Cellar/emacs/HEAD/bin/ctags" "/usr/local/Cellar/emacs/HEAD/bin/git-log-patches-single-file" "~/projects/newppm/temp.all.patches" "~/projects/newppm/temp" "/Users/cmagid/projects/newppm/temp~" "~/projects/newppm/public/javascripts/application.js" "/Users/cmagid/projects/newppm/temp" "/usr/local/Cellar/emacs/HEAD/bin/" "/usr/local/Cellar/emacs/HEAD/bin/git-log-changes-single-file" "/Users/cmagid/Documents/junk.org" "/usr/local/Cellar/emacs/HEAD/bin/" "/usr/local/Cellar/emacs/HEAD/bin/git-log-patches-single-file" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file-show" "/Users/cmagid/projects/home/patch" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file-show" "~/projects/home/app/views/locations/floorplan.html.erb.rej" "~/projects/home/app/views/locations/floorplan.html.erb.the.way.it.was.before.failed.patch.5d51278.was.applied" "~/projects/home/app/views/locations/floorplan.html.erb.rej" "~/projects/home/app/views/locations/floorplan.html.erb" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file-show" "/usr/local/Cellar/emacs/HEAD/bin/" "/Users/cmagid/projects/home/allpatches" "/usr/local/Cellar/emacs/HEAD/bin/git-revert-single-file" "/usr/local/Cellar/emacs/HEAD/bin" "/Users/cmagid/projects/home/templong" "/Users/cmagid/projects/home/temp" "~/Documents/" "/Users/cmagid/projects/home/foo.patch" "/Users/cmagid/projects/home/logy" "~/projects/home/alog" "~/Documents/template.info.txt" "~/Documents/" "~/Documents/floorplan.html.erb.info.txt" "/Users/cmagid/projects/home/patch" "~/Documents/" "~/Documents/edit_accessory_skuable_category.css.info.txt" "~/.emacs.d/yasnippet/snippets/text-mode/" "~/.emacs.d/yasnippet/snippets/" "~/.emacs.d/snippets-assisted" "~/projects/home/db/migrate/20120910231432_move_data_and_drop_for_content_comments_and_a_layout_comments.rb" "/Users/cmagid/projects/home/patch" "~/Documents/move_data_and_drop_for_content_comments_and_a_layout_comments.info.txt" "/Users/cmagid/projects/home/patch" "~/projects/home/db/migrate/20120823141605_create_a_layout_heroes.rb.rej" "/Users/cmagid/projects/home/patch" "~/Documents/create_a_layout_heroes.info.txt" "/Users/cmagid/aliases/.rake_aliases" "~/projects/" "/Users/cmagid/projects/trythis/gitlog" "~/projects/trythis/app/controllers/locations_controller.rb" "~/projects/home/app/assets/stylesheets/client/lux/ppm.scss" "~/Documents/ppmscss.info" "/Users/cmagid/projects/home/gitlog" "~/projects/home/gitlog" "/Users/cmagid/Documents/application.js_info.txt" "~/projects/home/public/javascripts/application.js" "~/projects/home/public/javascripts/application.js.rej" "/Users/cmagid/projects/home/patch" "/Users/cmagid/.gitconfig" "/Users/cmagid/projects/home/logy" "~/projects/home/app/views/ppm/campaigns/_select_campaign.html.erb" "~/projects/home/./app/views/ppm/campaigns/_select_campaign.html.erb" "/Users/cmagid/projects/home/patch" "~/Documents/temp" "/Users/cmagid/projects/home/patch" "/Users/cmagid/Documents/page_actions_info.txt" "/Users/cmagid/Documents/switch_campaign_info.txt" "~/Documents/switch_campaign_info.txt" "~/Documents/plain_notifier_info.txt" "/Users/cmagid/Documents/trial1.txt" "~/projects/home/app/controllers/locations_controller.rb" "/Users/cmagid/.bashrc" "~/Documents/tempmail.txt" "~/projects/home/public/stylesheets/snippets/placement/edit_skuable_group.css" "/Users/cmagid/Documents/thefilesgasparchangedondevelopment.txt" "~/projects/home/myfoo" "/Users/cmagid/projects/home/myfoo" "/Users/cmagid/projects/home/temp" "~/projects/experiment/list-of-all-files-in-development-sans-gaspar-branch-which-gaspar-changed.log" "~/projects/experiment/list-of-all-files-in-development-sans-gaspar.out.gold" "~/projects/experiment/" "/Users/cmagid/projects/experiment/list-of-all-files-in-development-sans-gaspar.out" "/Users/cmagid/projects/experiment/list-of-all-files-in-development-sans-gaspar" "/Users/cmagid/projects/experiment/list-of-all-files-in-development-sans-gaspar.out" "/Users/cmagid/projects/experiment/list-of-all-files-in-development-sans-gaspar" "~/.tmp/list-of-all-files-in-development-sans-gaspar" "~/.tmp/list-of-all-files-in-development-sans-gaspar|wc" "~/.tmp/list-of-all-files-in-development-sans-gaspar" "~/Documents/results_file.txt" "/Users/cmagid/projects/experiment/author" "/Users/cmagid/projects/experiment/author_check" "/Users/cmagid/projects/experiment/author" "~/.tmp/author" "~/.tmp/patches" "~/.tmp/author" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/experiment/Capfile" "/Users/cmagid/.gitignore_global" "/Users/cmagid/.gitconfig" "/Users/cmagid/projects/john/file3" "/Users/cmagid/projects/john/file2" "/Users/cmagid/projects/john/file1" "/Users/cmagid/projects/john/file2" "/Users/cmagid/projects/john/file1" "~/development_branch" "~/gaspar_branch" "~/projects/experiment/ramdomfile.rb" "~/projects/experiment/location.erb" "/Users/cmagid/projects/experiment/location.erb" "~/projects/experiment/location.erb" "~/projects/experiment/" "~/projects/experiment/location.erb" "/Users/cmagid/projects/experiment/location.erb" "/Users/cmagid/projects/experiment/master_branch_file" "/Users/cmagid/projects/experiment/location.rb" "/Users/cmagid/projects/experiment/location.erb" "/Users/cmagid/Dropbox/mv mymac rbmac/org-mode-config.org" "~/projects/ppm/app/controllers/locations_controller.rb" "~/projects/ppm/app/models/content.rb" "/Users/cmagid/aliases/.git_aliases" "~/projects/vmm/./config/site" "/Users/cmagid/.gitconfig" "/Users/cmagid/aliases/.emacs_aliases" "~/projects/experiment/vmm/./public/javascripts/sku_find.js" "/Users/cmagid/projects/vmm/app/views/locations/_fixture_display_controls.rhtml" "/Users/cmagid/projects/vmm/temp2" "/Users/cmagid/projects/vmm/temp" "/Users/cmagid/projects/vmm/app/controllers/locations_controller.rb" "~/Dropbox/mv mymac rbmac/" "/Users/cmagid/projects/experiment/vmm/app/models/location.rb" "/Users/cmagid/projects/experiment/vmm/decorators/att/models/location.rb" "~/projects/experiment/vmm/decorators/att/models/" "/Users/cmagid/projects/experiment/vmm/decorators/att/models/content.rb" "~/projects/experiment/vmm/" "~/projects/experiment/vmm/decorators/att/models/" "/Users/cmagid/projects/experiment/me/foo" "/Users/cmagid/.tmp/emacs121636508/server" "/Applications/Emacs.app/Contents/MacOS/Emacs" "/Users/cmagid/projects/experiment/temp/bar" "/Users/cmagid/projects/experiment/temp/foo" "/Users/cmagid/projects/experiment/vmm/doc/README_FOR_APP" "/Users/cmagid/projects/experiment/vmm/.rvmrc" "/Users/cmagid/.devutils" "~/.emacs.d/snippets-assisted/" "~/Dropbox/" "~/" "/Users/cmagid/.bashrc" "~/projects/vmm/app/controllers/locations_controller.rb" "~/projects/experiment/" "~/projects/experiment/.rvmrc" "/Users/cmagid/projects/vmm/Gemfile.lock" "/Users/cmagid/projects/vmm/Gemfile" "/Users/cmagid/projects/vmm/.rvmrc" "/Users/cmagid/projects/vmm/config/database.yml" "~/projects/vmm/config/site" "/Users/cmagid/projects/vmm/app/views/locations/floorplan.html.erb" "~/projects/vmm/app/views/locations/floorplan2.html.erb" "~/projects/vmm/app/views/locations/floorplan.html.erb" "/Users/cmagid" "~/projects/vmm/vendor/cache/railroady-1.1.0.gem" "~/projects/vmm/lib/tasks/logfile" "/Users/cmagid/projects/vmm/logfile" "/Users/cmagid/projects/vmm/temp.rb" "/Users/cmagid/aliases/.git_aliases" "/Users/cmagid/projects/vmm/temp.rb" "~/projects/vmm/app/models/location.rb" "/Users/cmagid/projects/.rvmrc" "/Users/cmagid/projects/vmm/app/views/locations/_comment.rhtml" "/Users/cmagid/projects/vmm/app/views/locations/_comments.html.erb" "/Users/cmagid/projects/vmm/app/views/locations/_comment.rhtml" "/Users/cmagid/Dropbox/mv mymac rbmac/speedbarexportsettings.txt" "~/projects/vmm/app/helpers/application_helper.rb" "/Users/cmagid/aliases/.emacs_aliases" "/Users/cmagid/projects/vmm/ERD.svg" "~/projects/vmm/app/models/c_placement/c_placement_group.rb" "/Users/cmagid/projects/vmm/db/schema.rb" "~/projects/vmm/db/migrate/20101215162150_acts_as_taggable_on_migration.rb" "~/projects/vmm/" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02@R13/gems/railroady-1.1.0" "/Users/cmagid/projects/vmm/Gemfile" "~/projects/vmm/./test/files/floorplans/floorplan.svg" "/Users/cmagid/projects/vmm/Gemfile.lock" "/Users/cmagid/projects/vmm/app/models/location.rb" "/Users/cmagid/projects/vmm/Gemfile" "/Users/cmagid/projects/vmm/ERD.dot" "~/projects/vmm/lib/tasks/dupecleaner.rake" "/Users/cmagid/projects/vmm/Rakefile" "~/Library/Preferences/org.gnu.Emacs.plist" "~/.MacOSX/" "~/.MacOSX/environment.plist" "/Users/cmagid/junk.sh" "~/.emacs.d/" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/server.el.gz" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/server.el.gz" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/" "~/.emacs.d/foo.txt" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/server.el" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/server.el" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/" "~/.emacs.d/" "~/.emacs.d/server.el" "/Users/cmagid/.emacs.d/init.el.GOLD" "~/" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/." "/Users/cmagid/.emacs.d/init.el" "/Users/cmagid/.emacs.d/init.el.GOLD" "~/.emacs.d/" "/usr/local/Cellar/emacs/HEAD/share/emacs/24.3.50/lisp/." "/Users/cmagid/projects/vmm/app/views/layouts/main.rhtml" "/Users/cmagid/app/views/layouts/main.rhtml" "/Users/cmagid/junk.sh" "/Users/cmagid/projects/vmm/app/controllers/admin_controller.rb" "/Users/cmagid/projects/vmm/app/controllers/locations_controller.rb" "/Users/cmagid/.bash_profile" "/Users/cmagid/.bashrc" "/Users/cmagid/aliases/.emacs_aliases" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/vmm/app/controllers/locations_controller.rb" "~/.tmp/" "/Users/cmagid/.bashrc" "/usr/local/Cellar/emacs/HEAD/Emacs.app/" "~/Documents/" "/Users/cmagid/projects/vmm/app/controllers/locations_controller.rb" "/Users/cmagid/aliases/.emacs_aliases" "~/projects/vmm/" "~/Dropbox/mv mymac rbmac/" "/Users/cmagid/projects/vmm/Gemfile" "~/Documents/GOAL2.org" "~/projects/vmm/./config/site" "~/projects/vmm/lib/ipog_copy/helpers.rb" "~/projects/vmm/db/" "~/projects/vmm/app/controllers/application_controller.rb" "~/projects/vmm/lib/" "~/projects/vmm/./stories/all.rb" "~/.emacs.d/snippets/org-mode/" "~/.emacs.d/snippets" "~/Dropbox/mv mymac rbmac/" "/Users/cmagid/Dropbox/mv mymac rbmac/temp.org" "~/projects/vmm/./config/.bash_local" "/Users/cmagid/.gitignore_global" "/Users/cmagid/.gitconfig" "~/projects/vmm/app/views/templates/pick_and_pack.rhtml" "/Users/cmagid/projects/vmm/app/views/templates/_campaign_content_group_generation_warnings.rhtml" "/Users/cmagid/pnp.log" "~/aliases/" "/Users/cmagid/pnp.log" "/Users/cmagid/projects/vmm/app/models/campaign.rb" "/Users/cmagid/pnp.log" "~/projects/vmm/config/deploy/setup.rb" "/Users/cmagid/projects/vmm/config/database.yml" "/Users/cmagid/projects/vmm/app/views/campaigns/_submenu_edit.rhtml" "~/projects/vmm/./app/controllers/templates_controller.rb" "/Users/cmagid/projects/vmm/app/views/shared/_menu.rhtml" "~/projects/vmm/app/views/layouts/" "/Users/cmagid/projects/vmm/config/database.yml" "~/projects/vmm/config/site" "/Users/cmagid/aliases/.emacs_aliases" "/Users/cmagid/projects/vmm/rr.txt" "~/projects/vmm/./app/controllers/templates_controller.rb" "~/projects/vmm/app/controllers/application_controller.rb" "~/projects/vmm/sites/bell/app/controllers/templates_controller.rb" "/Users/cmagid/projects/vmm/sites/o2/app/controllers/templates_controller.rb" "~/projects/vmm/./config/deploy.rb" "/Users/cmagid/projects/vmm/Gemfile" "/Users/cmagid/projects/vmm/Gemfile.lock" "/Users/cmagid/projects/vmm/dev.log" "/Users/cmagid/projects/vmm/.gitignore" "/Users/cmagid/.gitignore_global" "~/.gitconfig" "~/Documents/" "~/Downloads/" "/Users/cmagid/Downloads/sourcetree.license" "~/Documents/Access.txt" "/Users/cmagid/.bashrc" "~/Downloads/vibrantinklion/" "~/" "~/projects/vmm/binary_files/" "/Users/cmagid/.bashrc" "/Library/Extensions/fuse4x.kext/Contents/Resources/README" "/Contents/Resources/README" "~/projects/vmm/" "~/projects/vmm/vendor/plugins/has_regions/lib/has_regions.rb" "~/projects/vmm/" "/Users/cmagid/.irbrc" "/Users/cmagid/projects/vmm/Gemfile" "/Users/cmagid/.bashrc" "/Users/cmagid/.git-completion.bash" "~/aliases/.unix_aliases" "~/aliases/" "~/Documents/gtd-shell-2012-11-16.txt" "/Users/cmagid/.bashrc" "/Library/Filesystems/" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02@R13/gems/i18n-0.5.0/lib/i18n/backend/base.rb" "/Users/cmagid/projects/vmm/.rvmrc" "/Users/cmagid/projects/vmm/config/database.yml" "~/projects/vmm/config/initializers/1_rbm_i18n.rb" "~/projects/vmm/config/initializers/" "/Users/cmagid/projects/vmm/config.ru" "/Users/cmagid/projects/vmm/config/environment.rb" "/Users/cmagid/projects/vmm/config.ru" "~/projects/vmm/" "/Users/cmagid/.rvm/gems/ree-1.8.7-2012.02@R13/gems/i18n-0.5.0/lib/i18n/backend/base.rb" "/Users/cmagid/projects/vmm/config/database.yml" "/Users/cmagid/projects/vmm/vendor/gems/activerecord-3.0.11/lib/active_record/connection_adapters/postgresql_adapter.rb" "~/projects/vmm/log/" "/Users/cmagid/.bashrc" "~/projects/vmm/config/" "/Users/cmagid/projects/vmm/rr.txt" "~/projects/vmm/" "/Users/cmagid/adduser" "/usr/sbin/adduser" "/usr/sbin/" "/Users/cmagid/projects/vmm/config/database.yml" "/Users/cmagid/.bashrc" "~/.ssh/" "~/.ssh/config" "/Users/cmagid/projects/vmm/config.ru" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/vmm/config/database.yml" "~/aliases/.postgressql_aliases" "/Users/cmagid/projects/vmm/config/database.yml" "/Users/cmagid/.devutils" "/Users/cmagid/Downloads/git-completion.bash" "~/.devutils" "~/.bashrc" "~/" "~/.devutils" "/Users/cmagid/Downloads/devutils" "/Users/cmagid/projects/vmm/config/database.yml" "/Users/cmagid/projects/vmm/.rvmrc" "/Users/cmagid/.bashrc" "/Users/cmagid/.bash_profile" "/Users/cmagid/Dropbox/Move from My Mac to RBM/.rvmrc_bundler" "~/aliases/" "/Users/cmagid/projects/vmm/.rvmrc" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/vmm/Gemfile" "/Users/cmagid/projects/vmm/config/database.yml" "~/aliases/" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/vmm/.rvmrc" "~/projects/vmm/config/database.yml" "~/projects/vmm/config/" "/Users/cmagid/projects/vmm/config/database.yml.cruise" "/Users/cmagid/Downloads/database.yml.pcs_local" "~/projects/vmm/app/models/ndpop_exception.rb" "/Users/cmagid/projects/vmm/Gemfile" "~/aliases/" "/Users/cmagid/aliases/.postgressql_aliases" "~/aliases/" "/Users/cmagid/projects/vmm/config/database.yml" "~/projects/vmm/script/" "/Users/cmagid/projects/vmm/Gemfile" "/Users/cmagid/projects/vmm/logfile" "/Users/cmagid/projects/vmm/.rvmrc" "/Users/cmagid/projects/vmm/.rspec" "/Users/cmagid/projects/vmm/.rvmrc" "/Users/cmagid/projects/vmm/Gemfile" "~/projects/vmm/." "~/projects/vmm/" "/Users/cmagid/projects/vmm/.rvmrc" "/Users/cmagid/.bashrc" "~/aliases/" "~/Dropbox/Move from My Mac to RBM/" "~/aliases/." "/Users/cmagid/projects/vmm/.rvmrc" "~/projects/vmm/.gitignore" "~/projects/vmm/.rvmrc" "/Users/cmagid/projects/vmm/.rvmrc" "~/aliases/" "/Users/cmagid/projects/.rvmrc" "/Users/cmagid/.bashrc" "~/" "~/aliases/" "/Users/cmagid/.bashrc" "/Users/cmagid/projects/.rvmrc" "/Users/cmagid/.emacs.d/init.el" "~/.emacs.d" "~/rails3/bootstrap/newerentries/" "~/rails3/bootstrap/newerentries/app/views/" "/Users/cmmagid/rails3/bootstrap/newerentries/app/views/entries/_form.html.erb" "~/rails3/bootstrap/newerentries/app/assets/stylesheets/" "/Users/cmmagid/rails3/bootstrap/newerentries/app/views/layouts/public_layout.html.erb" "~/rails3/bootstrap/newerentries/" "~/rails3/bootstrap/newerentries/app/views/layouts/" "~/rails3/bootstrap/newerentries/" "~/rails3/bootstrap/newerentries/app/views/layouts/application.html.erb" "~/rails3/bootstrap/newerentries/app/assets/stylesheets/public_layout.css.scss" "~/rails3/bootstrap/newerentries/app/assets/javascripts/stripe_credit_cards.js.coffee" "~/rails3/bootstrap/newerentries/app/assets/stylesheets/" "/Users/cmmagid/rails3/bootstrap/newerentries/app/assets/stylesheets/application.css.scss" "~/rails3/bootstrap/newerentries/app/assets/stylesheets/" "~/rails3/bootstrap/newerentries/holding/stylesheets/" "~/rails3/bootstrap/newerentries/app/assets/stylesheets/" "~/rails3/bootstrap/newerentries/holding/stylesheets/" "~/rails3/bootstrap/newerentries/app/assets/stylesheets/" "~/rails3/bootstrap/newerentries/holding/stylesheets/" "~/rails3/bootstrap/newerentries/app/assets/stylesheets/" "/Users/cmmagid/rails3/bootstrap/newerentries/app/assets/stylesheets/public_layout.css.scss" "/Users/cmmagid/rails3/bootstrap/newerentries/app/assets/stylesheets/entries.css.scss" "/Users/cmmagid/rails3/bootstrap/newerentries/Gemfile" "~/rails3/bootstrap/newerentries/" "/Users/cmmagid/rails3/bootstrap/newerentries/app/views/layouts/application.html.erb" "~/rails3/bootstrap/newerentries/" "/Users/cmmagid/rails3/bootstrap/rr.txt" "~/rails3/bootstrap/newerentries/" "~/rails3/bootstrap/newerentries/app/controllers/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/local-data/organize/gtd.org"
+  "gtd.org"
+  'org-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  274741
+  '(274799 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/aliases/.git_aliases"
+  ".git_aliases"
+  'fundamental-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  12487
+  '(12452 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/aliases/.irc_aliases"
+  ".irc_aliases"
+  'fundamental-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  3713
+  '(3694 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/aliases/.ruby_aliases"
+  ".ruby_aliases"
+  'fundamental-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  12291
+  '(269 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.tmp/h.log"
+  "h.log"
+  'fundamental-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  10753
+  '(10689 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/local-data/organize/non-specific/ticket-7001.org"
+  "ticket-7001.org"
+  'org-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  2316
+  '(2157 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/.bashrc"
+  ".bashrc"
+  'sh-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  5934
+  '(5706 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/newppm/config/global_permissions.yml"
+  "global_permissions.yml"
+  'yaml-mode
+  '(yas-minor-mode textmate-mode rinari-minor-mode global-whitespace-mode wrap-region-mode)
+  5
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "non-specific"
+  'dired-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode)
+  1706
+  '(1655 nil)
+  t
+  '("/Users/cmagid/projects/local-data/organize/non-specific/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmagid/projects/newppm/app/views/shared/_header.rhtml"
+  "_header.rhtml"
+  'rhtml-mode
+  '(abbrev-mode yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode sgml-electric-tag-pair-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/projects/newppm/app/models/ppm_content_assignment.rb"
+  "ppm_content_assignment.rb"
+  'ruby-mode
+  '(yas-minor-mode textmate-mode rinari-minor-mode global-whitespace-mode wrap-region-mode ruby-electric-mode)
+  2368
+  '(2804 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/projects/newppm/script/rbm/request_analysis_report.rb"
+  "request_analysis_report.rb"
+  'ruby-mode
+  '(yas-minor-mode textmate-mode rinari-minor-mode global-whitespace-mode wrap-region-mode ruby-electric-mode)
+  5348
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/aliases/.rails_aliases"
+  ".rails_aliases"
+  'fundamental-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/projects/local-data/organize/non-specific/Information_Requested_by_Neil.txt"
+  "Information_Requested_by_Neil.txt"
+  'org-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  808
+  '(808 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  23422
+  '(23490 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/projects/experiment/.rvmrc"
+  ".rvmrc<3>"
+  'fundamental-mode
+  '(yas-minor-mode textmate-mode rinari-minor-mode global-whitespace-mode wrap-region-mode)
+  1
+  '(37 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/projects/experiment/trogdoro-el4r/data/emacs/site-lisp/el4r.el"
+  "el4r.el"
+  'emacs-lisp-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode)
+  1359
+  '(1306 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  nil
+  "bin"
+  'dired-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode)
+  264
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/experiment/trogdoro-el4r/bin/")
+  nil)
+
+(desktop-append-buffer-args 206
+  nil
+  "experiment"
+  'dired-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode)
+  242
+  '(nil nil)
+  t
+  '("/Users/cmagid/projects/experiment/")
+  nil)
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/projects/experiment/xiki/menu/firefox.rb"
+  "firefox.rb"
+  'ruby-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode ruby-electric-mode)
+  154
+  '(168 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/projects/experiment/xiki/menu/google_images.rb"
+  "google_images.rb"
+  'ruby-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode ruby-electric-mode)
+  282
+  '(275 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/.el4rrc.rb"
+  ".el4rrc.rb"
+  'ruby-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode ruby-electric-mode)
+  1872
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-append-buffer-args 206
+  "/Users/cmagid/.el4r/init.rb"
+  "init.rb"
+  'ruby-mode
+  '(yas-minor-mode textmate-mode global-whitespace-mode wrap-region-mode ruby-electric-mode)
+  442
+  '(208 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+

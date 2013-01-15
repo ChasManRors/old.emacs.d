@@ -1,0 +1,106 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Sep 29 09:42:31 2012
+;; Desktop file format version 206
+;; Emacs version 24.1.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("gtd" "h"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/desktop" "/Users/cmmagid/GTD/newgtd.org" "~/.emacs.d/" "~/.emacs.d/init.el" "~/Documents/1_WORKING/14_Programming_Quotes/read.me"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/cmmagid/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(yas-minor-mode wrap-region-mode)
+  16685
+  '(16654 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmmagid/GTD/newgtd.org"
+  "newgtd.org"
+  'org-mode
+  '(yas-minor-mode wrap-region-mode)
+  457318
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/cmmagid/.emacs.d/bufferlist.txt"
+  "bufferlist.txt"
+  'text-mode
+  '(yas-minor-mode wrap-region-mode)
+  87
+  '(58 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(yas-minor-mode)
+  1158
+  '(nil nil)
+  t
+  '("/Users/cmmagid/.emacs.d/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/cmmagid/.emacs.d/buffer-list.txt"
+  "buffer-list.txt"
+  'text-mode
+  '(yas-minor-mode wrap-region-mode)
+  17148
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/cmmagid/Documents/1_WORKING/14_Programming_Quotes/read.me"
+  "read.me"
+  'nroff-mode
+  '(yas-minor-mode wrap-region-mode)
+  217
+  '(26 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "14_Programming_Quotes"
+  'dired-mode
+  '(yas-minor-mode)
+  214
+  '(nil nil)
+  t
+  '("/Users/cmmagid/Documents/1_WORKING/14_Programming_Quotes/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "1_WORKING"
+  'dired-mode
+  '(yas-minor-mode)
+  1218
+  '(nil nil)
+  t
+  '("/Users/cmmagid/Documents/1_WORKING/")
+  nil)
+

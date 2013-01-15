@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: has_many :reports, :readonly => true
+# key: hm.
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+has_many :${1:reports}, :readonly => ${2:true}

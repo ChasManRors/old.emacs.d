@@ -1,0 +1,35 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("a"
+ (filename . "~/projects/experiment/trogdoro-el4r/bin/")
+ (front-context-string . "el4r\n  -rwxr-xr-")
+ (rear-context-string . "14 Jan  8 10:28 ")
+ (position . 264))
+("_0"
+ (filename . "~/.el4r/init.rb")
+ (front-context-string . "$LOAD_PATH.unshi")
+ (rear-context-string . "elow this line.\n")
+ (position . 208))
+("Access.txt"
+ (filename . "~/Documents/Access.txt")
+ (front-context-string)
+ (rear-context-string . " \nrbm 4 charles\n")
+ (position . 31))
+(".rvmrc"
+ (filename . "~/projects/.rvmrc")
+ (front-context-string . "rvm --default us")
+ (rear-context-string)
+ (position . 1))
+("Move from My Mac to RBM"
+ (filename . "~/Dropbox/mv mymac rbmac/")
+ (front-context-string . ".bashrc\n  -rwxr-")
+ (rear-context-string . "97 May 24 16:58 ")
+ (position . 259))
+("gtd.org"
+ (filename . "~/projects/local-data/organize/gtd.org")
+ (front-context-string . "	 https://redmin")
+ (rear-context-string . " for new hires\n\n")
+ (position . 565))
+)

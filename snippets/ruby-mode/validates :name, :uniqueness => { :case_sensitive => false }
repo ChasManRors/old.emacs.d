@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: validates :name, :uniqueness => { :case_sensitive => false }
+# key: valu
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+validates :name, :uniqueness => { :case_sensitive => false }

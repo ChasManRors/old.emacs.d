@@ -1,0 +1,94 @@
+# -*- mode: snippet -*-
+## name: full controller example
+# key: controller
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+class ${1:Agent}sController < ApplicationController
+
+  before_filter :authenticate_user!
+
+
+  # GET /${2:agent}s
+  # GET /${2:agent}s.json
+  def index
+    @${2:agent}s = ${1:Agent}.all
+
+    respond_to do |format|
+      format.html # index.html.erb
+      format.json { render json: @${2:agent}s }
+    end
+  end
+
+  # GET /${2:agent}s/1
+  # GET /${2:agent}s/1.json
+  def show
+    @${2:agent} = ${1:Agent}.find(params[:id])
+
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @${2:agent} }
+    end
+  end
+
+  # GET /${2:agent}s/new
+  # GET /${2:agent}s/new.json
+  def new
+    @${2:agent} = ${1:Agent}.new
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.json { render json: @${2:agent} }
+    end
+  end
+
+  # GET /${2:agent}s/1/edit
+  def edit
+    @${2:agent} = ${1:Agent}.find(params[:id])
+  end
+
+  # POST /${2:agent}s
+  # POST /${2:agent}s.json
+  def create
+    @${2:agent} = ${1:Agent}.new(params[:${2:agent}])
+
+    respond_to do |format|
+      if @${2:agent}.save
+        format.html { redirect_to @${2:agent}, notice: '${1:Agent} was successfully created.' }
+        format.json { render json: @${2:agent}, status: :created, location: @${2:agent} }
+      else
+        format.html { render action: "new" }
+        format.json { render json: @${2:agent}.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # PUT /${2:agent}s/1
+  # PUT /${2:agent}s/1.json
+  def update
+    @${2:agent} = ${1:Agent}.find(params[:id])
+
+    respond_to do |format|
+      if @${2:agent}.update_attributes(params[:${2:agent}])
+        format.html { redirect_to @${2:agent}, notice: '${1:Agent} was successfully updated.' }
+        format.json { head :no_content }
+      else
+        format.html { render action: "edit" }
+        format.json { render json: @${2:agent}.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # DELETE /${2:agent}s/1
+  # DELETE /${2:agent}s/1.json
+  def destroy
+    @${2:agent} = ${1:Agent}.find(params[:id])
+    @${2:agent}.destroy
+
+    respond_to do |format|
+      format.html { redirect_to ${2:agent}s_url }
+      format.json { head :no_content }
+    end
+  end
+end

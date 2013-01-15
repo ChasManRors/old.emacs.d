@@ -1,0 +1,16 @@
+- /Users/cmagid/.el4r/
+  $ pwd
+- /Users/cmagid/.el4r/
+  $ dg
+- /Users/cmagid/.el4r/
+  $ df
+- /Users/cmagid/.el4r/
+  $ df
+- /Users/cmagid/.el4r/
+  $ ls -l
+- /Users/cmagid/.el4r/
+  $ whoami
+- /Users/cmagid/projects/experiment/
+  $ g trogdoro-el4r/data/emacs/site-lisp/el4r.el:28:
+- /Users/cmagid/projects/experiment/xiki/menu/
+  % brew update

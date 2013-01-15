@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+## name:
+# key: debug.
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+<%= debug params %>

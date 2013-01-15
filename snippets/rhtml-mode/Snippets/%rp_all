@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: render :partial alls
+# key: render.
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+<%= render :partial => "account" %>
+<%= render :partial => "account", :locals => { :account => @buyer } %>
+<%= render :partial => "ad", :locals => { :ad => ad } %>
+<%= render :partial => "account", :object => @buyer %>
+<%= render :partial => "account", :locals => { :account => @buyer } %>
+<%= render :partial => "account", :object => @buyer, :as => 'user' %>
+<%= render :partial => "account", :locals => { :user => @buyer } %>
+<%= render :partial => "ad", :collection => @advertisements %>
+<%= render :partial => "ad", :collection => @advertisements, :spacer_template => "ad_divider" %>
+<%= render :partial => "advertisement/ad", :locals => { :ad => @advertisement } %>
+# <%= render :partial => "accounts/account", :locals => { :account => @account} %>
+<%= render :partial => @account %>
+# <%= render :partial => "posts/post", :collection => @posts %>
+<%= render :partial => @posts %>
+# Instead of <%= render :partial => "account" %>
+# Instead of <%= render :partial => "account", :locals => { :account => @buyer } %>
+# <%= render :partial => "accounts/account", :locals => { :account => @account} %>
+# <%= render :partial => "posts/post", :collection => @posts %>
+<%= render :partial => "user", :layout => "administrator", :locals => { :user => administrator } %>
+<%= render :partial => "user", :layout => "editor", :locals => { :user => editor } %>

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+## name:
+# key: content_for
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+<% content_for :$1 do %>
+  <%= stylesheet_link_tag '$0' %>
+<% end %>

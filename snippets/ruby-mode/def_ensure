@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+## name:
+# key: ensure.
+## binding: direct-keybinding
+## expand-env: ((some-var some-value))
+## type: command
+# --
+  def doing_something
+    resource = open_some_resource
+    # do stuff
+    return if condition
+    # do more stuff
+  ensure
+    resource.close
+  end
